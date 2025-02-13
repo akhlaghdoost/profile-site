@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "Kanit-Regular";
+  src: url("../fonts/Kanit/Kanit-Regular.ttf");
+}
+/* .nav-link:hover {
+  background-color: #facc15;
+  color: #020617;
+}
+.bio {
+  padding: 0 30px;
+  height: 100vh;
+  background-color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hi {
+  color: #facc15;
+  padding: 70px 0 10px 0;
+}
+.name {
+  color: white;
+}
+.desc {
+  color: gray;
+  padding: 10px 0;
+}
+img {
+  border-radius: 20px;
+}
+.btn {
+  all: unset;
+  padding: 8px 10px;
+  background-color: #facc15;
+  color: #111827;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  border: 2px solid #facc15;
+  color: #facc15;
+}
+.intro {
+  background-color: #020617;
+  padding: 100px 30px;
+  color: white;
+}
+.introduce {
+  padding: 10px 0;
+}
+.Experiences {
+  padding: 50px 0;
+  background-color: #111827;
+  color: white;
+}
+.box {
+  background-color: #020617;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.job {
+  color: #facc15;
+}
+footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #020617;
+  padding: 80px 0;
+  color: white;
+}
+.footer-contact {
+  text-align: center;
+}
+.id {
+  text-align: justify;
+  padding-top: 40px;
+}
+
+/* forms */
+/* input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.submit-btn {
+  all: unset;
+  padding: 8px 20px;
+  background-color: #facc15;
+  color: #020617;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.submit-btn:hover {
+  border: 2px solid #facc15;
+  background-color: #020617;
+  color: #facc15;
+}
+form {
+  border-radius: 5px;
+  padding: 20px;
+} */
+
+
+
+
+/* darkmode-light-mode */
+body {
+  background-color: #f2efe5;
+  /* color: black; */
+  .nav-link:hover {
+    background-color: #facc15;
+    color: #020617;
+  }
+  .bio {
+    padding: 0 30px;
+    height: 100vh;
+    background-color: #e3e1d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hi {
+    color: #2e5077;
+    padding: 70px 0 10px 0;
+  }
+  .desc {
+    color: #2e5077d7;
+    padding: 10px 0;
+  }
+  img {
+    border-radius: 20px;
+  }
+  .btn {
+    all: unset;
+    padding: 8px 10px;
+    background-color: #2e5077;
+    color: #f6f4f0;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .btn:hover {
+    border: 2px solid #2e5077;
+    cursor: pointer;
+    color: #2e5077;
+  }
+  .intro {
+    padding: 100px 30px;
+  }
+  .introduce {
+    padding: 10px 0;
+  }
+  .Experiences {
+    padding: 50px 0;
+    background-color: #e3e1d9;
+  }
+  .box {
+    background-color: #f2efe5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .job {
+    color: #2e5077;
+  }
+  footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
+    /* color: white; */
+  }
+  .footer-contact {
+    text-align: center;
+  }
+  .id {
+    text-align: justify;
+    padding-top: 40px;
+  }
+
+  /* forms */
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .submit-btn {
+    all: unset;
+    padding: 8px 20px;
+    background-color: #2e5077;
+    color: #f6f4f0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .submit-btn:hover {
+    cursor: pointer;
+    border: 2px solid #2e5077;
+    color:#2e5077 ;
+    background-color:#f6f4f0 ;
+  }
+  form {
+    border-radius: 5px;
+    padding: 20px;
+  }
+}
+
+/* dark-mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+  /* .nav-link:hover {
+    background-color: #facc15;
+    color: #020617;
+  } */
+  .bio {
+    padding: 0 30px;
+    height: 100vh;
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hi {
+    color: #facc15;
+    padding: 70px 0 10px 0;
+  }
+  .name {
+    color: white;
+  }
+  .desc {
+    color: gray;
+    padding: 10px 0;
+  }
+  img {
+    border-radius: 20px;
+  }
+  .btn {
+    all: unset;
+    padding: 8px 10px;
+    background-color: #facc15;
+    color: #111827;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .btn:hover {
+    border: 2px solid #facc15;
+    color: #facc15;
+  }
+  .intro {
+    background-color: #020617;
+    padding: 100px 30px;
+    color: white;
+  }
+  .introduce {
+    padding: 10px 0;
+  }
+  .Experiences {
+    padding: 50px 0;
+    background-color: #111827;
+    color: white;
+  }
+  .box {
+    background-color: #020617;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .job {
+    color: #facc15;
+  }
+  footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #020617;
+    padding: 80px 0;
+    color: white;
+  }
+  .footer-contact {
+    text-align: center;
+  }
+  .id {
+    text-align: justify;
+    padding-top: 40px;
+  }
+
+  /* forms */
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .submit-btn {
+    all: unset;
+    padding: 8px 20px;
+    background-color: #facc15;
+    color: #020617;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .submit-btn:hover {
+    border: 2px solid #facc15;
+    background-color: #020617;
+    color: #facc15;
+  }
+  form {
+    border-radius: 5px;
+    padding: 20px;
+  }
+}
