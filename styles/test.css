@@ -1,10 +1,11 @@
 /* نوار ناوبری */
 .navbar {
+  padding: 5px 0;
   background-color: #dedbdb;
   color: white;
 }
-.navbar .nav-link:hover {  
-  text-decoration: underline; 
+.navbar .nav-link:hover {
+  text-decoration: underline;
 }
 /* استایل‌های bio */
 .bio {
@@ -63,7 +64,7 @@ img {
 .job {
   color: #2e5077;
 }
-footer {
+.user-contact {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -71,7 +72,7 @@ footer {
   text-align: center;
   padding: 80px 0;
 }
-.footer-contact {
+.info-contact {
   padding-bottom: 40px;
 }
 .id {
@@ -106,9 +107,19 @@ textarea {
   color: #2e5077;
   background-color: #f6f4f0;
 }
+footer {
+  background: #f2efe5;
+  padding: 5px 0;
+  color: black;
+}
+footer i {
+  text-align: center;
+  padding:10px;
+  cursor: pointer;
+  font-size: 20px;
+}
 /* حالت دارک مود */
 .dark-mode {
-  background-color: black;
   color: white;
 }
 .dark-mode .navbar {
@@ -149,9 +160,24 @@ textarea {
 .dark-mode .job {
   color: #facc15;
 }
-.dark-mode footer {
+.dark-mode .user-contact {
   background-color: #020617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   color: white;
+}
+.dark-mode footer {
+  background-color: #111827;
+  padding: 5px 0;
+  color: white;
+}
+.dark-mode footer i {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
 }
 /* فرم‌ها در دارک مود */
 .dark-mode input[type="text"],
